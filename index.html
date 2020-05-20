@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OneSignal Test</title>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "8a5bc8f1-215b-4749-a1e7-6bd4a6d4c6fd",
+            });
+        });
+    </script>
 </head>
+
 <body>
     <h1>Hello World!!</h1>
 </body>
+
 </html>
